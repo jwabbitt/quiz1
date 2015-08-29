@@ -8,5 +8,10 @@
  * extension
  */
 module.exports = function fileExtension(name) {
+  if (name.indexOf('.') === -1) {
+    return false;
+  } else {
+    return name.split('.').pop();
+  }
 
 };

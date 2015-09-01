@@ -15,3 +15,8 @@ module.exports = function fileExtension(name) {
   }
 
 };
+/* Teacher's example:
+* var period = name.lastIndexOf('.');
+* if (period === -1) {return false;}
+* return name.substr(period + 1);
+*/

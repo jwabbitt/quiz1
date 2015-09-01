@@ -16,3 +16,9 @@ module.exports = function isEven(num) {
 
 
 };
+
+/* Or to make things more simple
+* return !(num % 2);
+* because 0 normally equals FALSE and 1 equals TRUE
+* With using ! NOT 0 is now TRUE and 1 is now FALSE;
+*/
